@@ -250,7 +250,7 @@ h6 {
 .navbar>ul>li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 24px;
+  padding: 10px 0 10px 20px;
 }
 
 .navbar a,
@@ -260,10 +260,11 @@ h6 {
   justify-content: space-between;
   padding: 0 3px;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  font-weight: 600;
 }
 
 .navbar a i,
@@ -2578,4 +2579,71 @@ ul.list.price-list.mb-20.check-circle.marquee-list.marquee-l2:hover {
 }
 ul.list.price-list.check-circle.mb-20.marquee-list.marquee-l3:hover {
   animation-play-state: paused;
+}
+.menu-box-info li {
+  padding: 2px 2px 2px 30px !important;
+}
+.menu-li-box ul {
+  margin-bottom: 0px !important;
+}
+.menu-li-box {
+  padding-right: 35px;
+}
+.menu-box-info {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  background-color: #e17b23;
+}
+.menu-li-box ul li a {
+  color: #fff;
+}
+.menu-li-box::before {
+  border-right: 10px solid rgba(0, 0, 0, 0.45) !important;
+  border-top: 8px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    transform: translateY(-100%);
+    width: 0;
+}
+.rgt-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar-rgt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+a.white-contrast {
+  color: #000;
+}
+a.black-contrast {
+  color: #fff;
+}
+.bar-c ul li {
+  display: inline-block;
+}
+.bar-c ul {
+  padding-left: 0px;
+}
+.bar-c p {
+  margin-bottom: 0px;
+}
+.bar-c ul {
+  margin-bottom: 0px;
+}
+.bar-c {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bar-c p a {
+  color: #fff;
+}
+.bar5 ul li a{
+  color:#fff;
 }
